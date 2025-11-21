@@ -32,6 +32,10 @@ while (true)
         }
         string input = Encoding.UTF8.GetString(buffer, 0, bytesRead);
         var errors = ValidateInput(input, out int A, out string op, out int B);
+        foreach (var error in errors)
+        {
+            Console.WriteLine(error.ToString());
+        }
 
         if (errors.Count > 0)
         {
@@ -70,13 +74,14 @@ List<string> ValidateInput(string input, out int a, out string op, out int b)
     b = 0;
     op = "";
 
-    string[] parts = input.Split(' ');
+    var lengthInput = input.Split(" ");
 
-    if (parts.Length != 3)
+    if (lengthInput.Length != 3)
     {
         errors.Add("A X B is not correct format");
-        return errors;
     }
+
+    string[] parts = input.Split([' ', '\t'], StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
 
     string A = parts[0];
     op = parts[1];

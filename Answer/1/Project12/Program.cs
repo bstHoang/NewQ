@@ -21,23 +21,26 @@ while (true)
         continue;
     }
 
-    if (input.ToLower() == "exit")
+    if (input.Trim().ToLower() == "exit")
     {
         break;
     }
 
     var errors = new List<string>();
+    
+    var lengthInput = input.Split(" ");
+    if (lengthInput.Length != 3)
+    {
+        errors.Add("A X B is not correct format");
+    }
 
-    var tokens = input.Split(' ');
+    var tokens = input.Split([' ', '\t'], StringSplitOptions.RemoveEmptyEntries);
 
     string a = tokens.Length > 0 ? tokens[0] : "";
     string op = tokens.Length > 1 ? tokens[1] : "";
     string b = tokens.Length > 2 ? tokens[2] : "";
 
-    if (tokens.Length != 3)
-    {
-        errors.Add("A X B is not correct format");
-    }
+    
 
     bool aIsInt = int.TryParse(a, out int A);
     bool bIsInt = int.TryParse(b, out int B);
