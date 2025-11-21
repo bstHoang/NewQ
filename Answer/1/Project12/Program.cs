@@ -27,7 +27,7 @@ while (true)
     }
 
     var errors = new List<string>();
-    
+
     var lengthInput = input.Split(" ");
     if (lengthInput.Length != 3)
     {
@@ -40,7 +40,7 @@ while (true)
     string op = tokens.Length > 1 ? tokens[1] : "";
     string b = tokens.Length > 2 ? tokens[2] : "";
 
-    
+
 
     bool aIsInt = int.TryParse(a, out int A);
     bool bIsInt = int.TryParse(b, out int B);
@@ -81,8 +81,8 @@ while (true)
 
         Console.WriteLine($"{response}");
 
-        stream.Close();
-        client.Close();
+        //stream.Close();
+        //client.Close();
     }
     catch
     {
