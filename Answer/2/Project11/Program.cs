@@ -29,7 +29,7 @@ while (true)
 
         while ((bytesRead = stream.Read(buffer, 0, buffer.Length)) > 0)
         {
-            string input = Encoding.UTF8.GetString(buffer, 0, bytesRead).Trim();
+            string input = Encoding.UTF8.GetString(buffer, 0, bytesRead);
 
             var errors = ValidateInput(input, out int A, out string op, out int B);
 
@@ -74,7 +74,7 @@ List<string> ValidateInput(string input, out int a, out string op, out int b)
     b = 0;
     op = "";
 
-    var lengthInput = input.Split(' ');
+    var lengthInput = input.Split(" ");
 
     if (lengthInput.Length != 3)
     {
