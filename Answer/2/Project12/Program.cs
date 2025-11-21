@@ -28,12 +28,10 @@ while (true)
 
         using NetworkStream stream = client.GetStream();
 
-        // Send request
         byte[] data = Encoding.UTF8.GetBytes(input);
         stream.Write(data, 0, data.Length);
         stream.Flush();
 
-        // Receive once — exactly once
         byte[] buffer = new byte[1024];
         int bytesRead = stream.Read(buffer, 0, buffer.Length);
 
@@ -58,8 +56,8 @@ while (true)
             Console.WriteLine(response);
         }
 
-        stream.Dispose();
-        client.Dispose();
+        stream.Close();
+        client.Close();
     }
     catch (Exception ex)
     {
