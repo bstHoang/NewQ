@@ -1,0 +1,472 @@
+Index: ../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/appsettings.json
+===================================================================
+diff --git a/../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/appsettings.json b/../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/appsettings.json
+deleted file mode 100644
+--- a/../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/appsettings.json	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
++++ /dev/null	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
+@@ -1,4 +0,0 @@
+-{
+-  "IpAddress": "127.0.0.1",
+-  "Port": "5000"
+-}
+\ No newline at end of file
+Index: ../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/Project12.runtimeconfig.json
+===================================================================
+diff --git a/../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/Project12.runtimeconfig.json b/../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/Project12.runtimeconfig.json
+deleted file mode 100644
+--- a/../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/Project12.runtimeconfig.json	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
++++ /dev/null	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
+@@ -1,13 +0,0 @@
+-{
+-  "runtimeOptions": {
+-    "tfm": "net8.0",
+-    "framework": {
+-      "name": "Microsoft.NETCore.App",
+-      "version": "8.0.0"
+-    },
+-    "configProperties": {
+-      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+-      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
+-    }
+-  }
+-}
+\ No newline at end of file
+Index: ../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/appsettings.json
+===================================================================
+diff --git a/../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/appsettings.json b/../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/appsettings.json
+deleted file mode 100644
+--- a/../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/appsettings.json	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
++++ /dev/null	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
+@@ -1,4 +0,0 @@
+-{
+-  "IpAddress": "127.0.0.1",
+-  "Port": "5000"
+-}
+\ No newline at end of file
+Index: ../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/Project12.deps.json
+===================================================================
+diff --git a/../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/Project12.deps.json b/../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/Project12.deps.json
+deleted file mode 100644
+--- a/../../Submit/2/nhatnmhe186348/1/solution/Q12/[QuestionNumber_NameStudentCode]/Project12.deps.json	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
++++ /dev/null	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
+@@ -1,174 +0,0 @@
+-{
+-  "runtimeTarget": {
+-    "name": ".NETCoreApp,Version=v8.0",
+-    "signature": ""
+-  },
+-  "compilationOptions": {},
+-  "targets": {
+-    ".NETCoreApp,Version=v8.0": {
+-      "Project12/1.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Configuration.Json": "8.0.1"
+-        },
+-        "runtime": {
+-          "Project12.dll": {}
+-        }
+-      },
+-      "Microsoft.Extensions.Configuration/8.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.Configuration.FileExtensions/8.0.1": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Configuration": "8.0.0",
+-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.FileProviders.Physical": "8.0.0",
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.724.31311"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.Configuration.Json/8.0.1": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Configuration": "8.0.0",
+-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.Configuration.FileExtensions": "8.0.1",
+-          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.1024.46610"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.FileSystemGlobbing": "8.0.0",
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.Primitives/8.0.0": {
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      }
+-    }
+-  },
+-  "libraries": {
+-    "Project12/1.0.0": {
+-      "type": "project",
+-      "serviceable": false,
+-      "sha512": ""
+-    },
+-    "Microsoft.Extensions.Configuration/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-0J/9YNXTMWSZP2p2+nvl8p71zpSwokZXZuJW+VjdErkegAnFdO1XlqtA62SJtgVYHdKu3uPxJHcMR/r35HwFBA==",
+-      "path": "microsoft.extensions.configuration/8.0.0",
+-      "hashPath": "microsoft.extensions.configuration.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
+-      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
+-      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.Configuration.FileExtensions/8.0.1": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-EJzSNO9oaAXnTdtdNO6npPRsIIeZCBSNmdQ091VDO7fBiOtJAAeEq6dtrVXIi3ZyjC5XRSAtVvF8SzcneRHqKQ==",
+-      "path": "microsoft.extensions.configuration.fileextensions/8.0.1",
+-      "hashPath": "microsoft.extensions.configuration.fileextensions.8.0.1.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.Configuration.Json/8.0.1": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-L89DLNuimOghjV3tLx0ArFDwVEJD6+uGB3BMCMX01kaLzXkaXHb2021xOMl2QOxUxbdePKUZsUY7n2UUkycjRg==",
+-      "path": "microsoft.extensions.configuration.json/8.0.1",
+-      "hashPath": "microsoft.extensions.configuration.json.8.0.1.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
+-      "path": "microsoft.extensions.fileproviders.abstractions/8.0.0",
+-      "hashPath": "microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-UboiXxpPUpwulHvIAVE36Knq0VSHaAmfrFkegLyBZeaADuKezJ/AIXYAW8F5GBlGk/VaibN2k/Zn1ca8YAfVdA==",
+-      "path": "microsoft.extensions.fileproviders.physical/8.0.0",
+-      "hashPath": "microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-OK+670i7esqlQrPjdIKRbsyMCe9g5kSLpRRQGSr4Q58AOYEe/hCnfLZprh7viNisSUUQZmMrbbuDaIrP+V1ebQ==",
+-      "path": "microsoft.extensions.filesystemglobbing/8.0.0",
+-      "hashPath": "microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.Primitives/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+-      "path": "microsoft.extensions.primitives/8.0.0",
+-      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+-    }
+-  }
+-}
+\ No newline at end of file
+Index: ../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/Project12.deps.json
+===================================================================
+diff --git a/../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/Project12.deps.json b/../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/Project12.deps.json
+deleted file mode 100644
+--- a/../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/Project12.deps.json	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
++++ /dev/null	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
+@@ -1,174 +0,0 @@
+-{
+-  "runtimeTarget": {
+-    "name": ".NETCoreApp,Version=v8.0",
+-    "signature": ""
+-  },
+-  "compilationOptions": {},
+-  "targets": {
+-    ".NETCoreApp,Version=v8.0": {
+-      "Project12/1.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Configuration.Json": "8.0.1"
+-        },
+-        "runtime": {
+-          "Project12.dll": {}
+-        }
+-      },
+-      "Microsoft.Extensions.Configuration/8.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.Configuration.FileExtensions/8.0.1": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Configuration": "8.0.0",
+-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.FileProviders.Physical": "8.0.0",
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.724.31311"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.Configuration.Json/8.0.1": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Configuration": "8.0.0",
+-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.Configuration.FileExtensions": "8.0.1",
+-          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.1024.46610"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+-        "dependencies": {
+-          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+-          "Microsoft.Extensions.FileSystemGlobbing": "8.0.0",
+-          "Microsoft.Extensions.Primitives": "8.0.0"
+-        },
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      },
+-      "Microsoft.Extensions.Primitives/8.0.0": {
+-        "runtime": {
+-          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+-            "assemblyVersion": "8.0.0.0",
+-            "fileVersion": "8.0.23.53103"
+-          }
+-        }
+-      }
+-    }
+-  },
+-  "libraries": {
+-    "Project12/1.0.0": {
+-      "type": "project",
+-      "serviceable": false,
+-      "sha512": ""
+-    },
+-    "Microsoft.Extensions.Configuration/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-0J/9YNXTMWSZP2p2+nvl8p71zpSwokZXZuJW+VjdErkegAnFdO1XlqtA62SJtgVYHdKu3uPxJHcMR/r35HwFBA==",
+-      "path": "microsoft.extensions.configuration/8.0.0",
+-      "hashPath": "microsoft.extensions.configuration.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
+-      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
+-      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.Configuration.FileExtensions/8.0.1": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-EJzSNO9oaAXnTdtdNO6npPRsIIeZCBSNmdQ091VDO7fBiOtJAAeEq6dtrVXIi3ZyjC5XRSAtVvF8SzcneRHqKQ==",
+-      "path": "microsoft.extensions.configuration.fileextensions/8.0.1",
+-      "hashPath": "microsoft.extensions.configuration.fileextensions.8.0.1.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.Configuration.Json/8.0.1": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-L89DLNuimOghjV3tLx0ArFDwVEJD6+uGB3BMCMX01kaLzXkaXHb2021xOMl2QOxUxbdePKUZsUY7n2UUkycjRg==",
+-      "path": "microsoft.extensions.configuration.json/8.0.1",
+-      "hashPath": "microsoft.extensions.configuration.json.8.0.1.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
+-      "path": "microsoft.extensions.fileproviders.abstractions/8.0.0",
+-      "hashPath": "microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-UboiXxpPUpwulHvIAVE36Knq0VSHaAmfrFkegLyBZeaADuKezJ/AIXYAW8F5GBlGk/VaibN2k/Zn1ca8YAfVdA==",
+-      "path": "microsoft.extensions.fileproviders.physical/8.0.0",
+-      "hashPath": "microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-OK+670i7esqlQrPjdIKRbsyMCe9g5kSLpRRQGSr4Q58AOYEe/hCnfLZprh7viNisSUUQZmMrbbuDaIrP+V1ebQ==",
+-      "path": "microsoft.extensions.filesystemglobbing/8.0.0",
+-      "hashPath": "microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512"
+-    },
+-    "Microsoft.Extensions.Primitives/8.0.0": {
+-      "type": "package",
+-      "serviceable": true,
+-      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+-      "path": "microsoft.extensions.primitives/8.0.0",
+-      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+-    }
+-  }
+-}
+\ No newline at end of file
+Index: ../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/Project12.runtimeconfig.json
+===================================================================
+diff --git a/../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/Project12.runtimeconfig.json b/../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/Project12.runtimeconfig.json
+deleted file mode 100644
+--- a/../../Submit/2/nhatnmhe186348/1/solution/Q12/Q12_cuongnhhe186494/Project12.runtimeconfig.json	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
++++ /dev/null	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
+@@ -1,13 +0,0 @@
+-{
+-  "runtimeOptions": {
+-    "tfm": "net8.0",
+-    "framework": {
+-      "name": "Microsoft.NETCore.App",
+-      "version": "8.0.0"
+-    },
+-    "configProperties": {
+-      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+-      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
+-    }
+-  }
+-}
+\ No newline at end of file
+Index: ../../Submit/2/Sinh_viên.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../Submit/2/Sinh_viên.txt b/../../Submit/2/Sinh_viên.txt
+--- a/../../Submit/2/Sinh_viên.txt	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
++++ b/../../Submit/2/Sinh_viên.txt	(date 1763722221297)
+@@ -1,0 +1,5 @@
++nhatnmhe186348
++hoangbsthe186345
++dongnvhe172649
++cuongnhhe186494
++huynqhe172314
+\ No newline at end of file
+Index: Project11/Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using Microsoft.Extensions.Configuration;\r\nusing System.Net;\r\nusing System.Net.Sockets;\r\nusing System.Text;\r\n\r\nvar configuration = new ConfigurationBuilder()\r\n                .AddJsonFile(\"appsettings.json\", optional: false, reloadOnChange: true)\r\n                .Build();\r\n\r\nstring ipAddress = configuration[\"IpAddress\"]!;\r\nint port = int.Parse(configuration[\"Port\"]!);\r\n\r\nTcpListener listener = new TcpListener(IPAddress.Parse(ipAddress), port);\r\nlistener.Start();\r\n\r\nConsole.WriteLine(\"Waiting for a connection from client\");\r\n\r\nwhile (true)\r\n{\r\n    TcpClient client = listener.AcceptTcpClient();\r\n    Console.WriteLine(\"Client connected\");\r\n\r\n    using NetworkStream stream = client.GetStream();\r\n\r\n    try\r\n    {\r\n        byte[] buffer = new byte[1024];\r\n        int bytesRead;\r\n\r\n        while ((bytesRead = stream.Read(buffer, 0, buffer.Length)) > 0)\r\n        {\r\n            string input = Encoding.UTF8.GetString(buffer, 0, bytesRead).Trim();\r\n\r\n            var errors = ValidateInput(input, out int A, out string op, out int B);\r\n\r\n            if (errors.Count > 0)\r\n            {\r\n                string jsonError = System.Text.Json.JsonSerializer.Serialize(errors);\r\n                byte[] errorBytes = Encoding.UTF8.GetBytes(jsonError);\r\n                stream.Write(errorBytes, 0, errorBytes.Length);\r\n                continue;\r\n            }\r\n\r\n            double result = op switch\r\n            {\r\n                \"+\" => A + B,\r\n                \"-\" => A - B,\r\n                \"*\" => A * B,\r\n                \"/\" => (double)A / B,\r\n                _ => 0\r\n            };\r\n\r\n            double formattedResult = Math.Truncate(result * 100) / 100;\r\n            byte[] resultBytes = Encoding.UTF8.GetBytes(formattedResult.ToString());\r\n            stream.Write(resultBytes, 0, resultBytes.Length);\r\n        }\r\n\r\n        Console.WriteLine(\"Client disconnected\");\r\n    }\r\n    catch\r\n    {\r\n        Console.WriteLine(\"Error while handling client\");\r\n    }\r\n    finally\r\n    {\r\n        client.Close();\r\n    }\r\n}\r\n\r\nList<string> ValidateInput(string input, out int a, out string op, out int b)\r\n{\r\n    var errors = new List<string>();\r\n    a = 0;\r\n    b = 0;\r\n    op = \"\";\r\n\r\n    var lengthInput = input.Split(' ');\r\n\r\n    if (lengthInput.Length != 3)\r\n    {\r\n        errors.Add(\"A X B is not correct format\");\r\n    }\r\n\r\n    string[] parts = input.Split(new char[] { ' ', '\\t' }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);\r\n\r\n    if (parts.Length >= 3)\r\n    {\r\n        string A = parts[0];\r\n        op = parts[1];\r\n        string B = parts[2];\r\n\r\n        if (!int.TryParse(A, out a) || !int.TryParse(B, out b))\r\n        {\r\n            errors.Add(\"A or B is not an integer\");\r\n        }\r\n\r\n        if (op != \"+\" && op != \"-\" && op != \"*\" && op != \"/\")\r\n        {\r\n            errors.Add(\"X is not a valid operator (+,-,*,/)\");\r\n        }\r\n\r\n        if (op == \"/\" && int.TryParse(B, out b) && b == 0)\r\n        {\r\n            errors.Add(\"Divide by 0\");\r\n        }\r\n    }\r\n\r\n    return errors;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Project11/Program.cs b/Project11/Program.cs
+--- a/Project11/Program.cs	(revision 522ac9b96608bbf73c8aecbd0aceb15865f4797d)
++++ b/Project11/Program.cs	(date 1763722983189)
+@@ -29,7 +29,7 @@
+ 
+         while ((bytesRead = stream.Read(buffer, 0, buffer.Length)) > 0)
+         {
+-            string input = Encoding.UTF8.GetString(buffer, 0, bytesRead).Trim();
++            string input = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+ 
+             var errors = ValidateInput(input, out int A, out string op, out int B);
+ 
+diff --git a/../../Submit/2/cuongnhhe186494/1/solution/Q11/publish_11(-2,5).txt b/../../Submit/2/cuongnhhe186494/1/solution/Q11/publish_11(-2,5).txt
+deleted file mode 100644
+diff --git a/../../Submit/2/nhatnmhe186348/1/solution/Q11/Q11_hoangbsthe186345/những_file_trong_publish.txt b/../../Submit/2/nhatnmhe186348/1/solution/Q11/Q11_hoangbsthe186345/những_file_trong_publish.txt
+deleted file mode 100644
+diff --git a/../../Submit/2/nhatnmhe186348/1/solution/Q11/publish_11.txt b/../../Submit/2/nhatnmhe186348/1/solution/Q11/publish_11.txt
+deleted file mode 100644
+diff --git a/../../Submit/2/hoangbsthe186345/1/solution/Q11/publish_11(-4.5).txt b/../../Submit/2/hoangbsthe186345/1/solution/Q11/publish_11(-4.5).txt
+deleted file mode 100644
