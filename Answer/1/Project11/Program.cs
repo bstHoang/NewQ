@@ -67,7 +67,7 @@ while (true)
             byte[] resultBytes = Encoding.UTF8.GetBytes(formatted.ToString());
             stream.Write(resultBytes, 0, resultBytes.Length);
         }
-
+        client.Close();
         Console.WriteLine("Client disconnected");
     }
     catch

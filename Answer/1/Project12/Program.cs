@@ -81,8 +81,8 @@ while (true)
 
         Console.WriteLine($"{response}");
 
-        //stream.Close();
-        //client.Close();
+        stream.Close();
+        client.Close();
     }
     catch
     {
